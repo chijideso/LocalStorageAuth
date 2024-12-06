@@ -70,8 +70,8 @@ const Profile = () => {
         <div className="mb-4">
           <label className="block mb-2" htmlFor="Nextofkin">Next of kindred</label>
           <input
-            type="text" // Change to 'text' for next of kin
-            name="kin" // Use 'kin' to match the userData structure
+            type="text" 
+            name="kin" 
             id="Nextofkin"
             value={userData.kin}
             onChange={handleChange}
